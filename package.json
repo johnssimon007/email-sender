@@ -1,0 +1,26 @@
+{
+  "name": "emailsend",
+  "version": "1.0.0",
+  "description": "email sender",
+  "main": "email.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "handlebars": "^4.0.12",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnssimon007/email-sender.git"
+  },
+  "author": "johns simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnssimon007/email-sender/issues"
+  },
+  "homepage": "https://github.com/johnssimon007/email-sender#readme"
+}
