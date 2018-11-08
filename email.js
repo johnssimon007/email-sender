@@ -11,8 +11,8 @@ app.listen(8080,()=>console.log('listening on port 8080'))
 var smtpTransport = nodemailer.createTransport({
    service: 'gmail',
     auth: {
-        user: "bosetester19@gmail.com", 
-        pass: "zeusbomber" 
+        user: "xx@mail.com", 
+        pass: "xxxx" 
     }
 });
 //handing email template
